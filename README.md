@@ -5,7 +5,7 @@ This project aims to be a tool for creating all kinds of projects.
 Instead of running npx create-vite@latest and going through all the steps, manually installing Tailwind, Bootstrap or whatever, and then having to remove all the boilerplate code, I want to do it in a single command:
 
 ```powershell
-mstrapper vite -f react --ts --tw my-project
+mstrapper vite -f react --ts --tw --pm pnpm my-project
 ```
 
 - -f: framework
@@ -13,6 +13,8 @@ mstrapper vite -f react --ts --tw my-project
 - --ts: TypeScript
 
 - --tw: Tailwind CSS
+
+- --pm: Package manger
 
 Vite is just a simple starting point for now. The idea is to add many more tech stacks later on.
 
